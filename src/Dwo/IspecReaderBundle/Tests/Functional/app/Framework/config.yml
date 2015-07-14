@@ -1,0 +1,4 @@
+imports:
+    - { resource: ../config/framework.yml }
+    - { resource: ../../../Fixtures/config.yml }
+

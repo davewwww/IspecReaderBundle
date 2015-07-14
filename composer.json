@@ -1,0 +1,38 @@
+{
+  "name": "dwo/ispec_reader_bundle",
+  "description": "The Reader Bundle for Ispec",
+  "keywords": ["ip", "inspection", "connection", "connection"],
+  "homepage": "https://github.com/davewwww",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Www",
+      "email": "davewwwo@gmail.com",
+      "homepage": "https://github.com/davewwww"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "symfony/config": "~2.4",
+    "symfony/dependency-injection" : "~2.4",
+    "symfony/http-kernel": "~2.4",
+    "doctrine/orm": "^2.5",
+    "dwo/ispec": "^1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dwo\\IspecReaderBundle": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4",
+    "symfony/framework-bundle": "~2.4",
+    "doctrine/doctrine-bundle": "~1.5"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
