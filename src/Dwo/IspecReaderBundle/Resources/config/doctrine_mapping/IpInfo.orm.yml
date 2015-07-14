@@ -1,0 +1,37 @@
+Dwo\IspecReaderBundle\Entity\IpInfo:
+  type: entity
+  table: ip_infos
+  indexes:
+    key:
+      columns: [ key ]
+    subnet:
+      columns: [ subnet ]
+    asn:
+      columns: [ asn ]
+
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+
+  fields:
+    key:
+      type: string
+      length: 32
+    subnet:
+      type: string
+      length: 100
+    isp:
+      type: string
+      length: 100
+    asn:
+      type: integer
+    networkType:
+      column: network_type
+      type: string
+      length: 100
+      nullable: true
+    source:
+      type: string
+      length: 100
+      nullable: true
