@@ -1,7 +1,0 @@
-services:
-
-  dwo_ispec_reader.manager.default:
-    class: Dwo\IspecReaderBundle\Entity\IpInfoManager
-    arguments: [@doctrine.orm.ispec_default_entity_manager, Dwo\IspecReaderBundle\Entity\IpInfo]
-  dwo_ispec_reader.manager:
-    alias: dwo_ispec_reader.manager.default

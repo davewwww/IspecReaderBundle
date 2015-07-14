@@ -1,2 +1,0 @@
-parameters:
-  dwo_ispac_sqlite_path: %kernel.root_dir%/../../Fixtures/db.sqlite
