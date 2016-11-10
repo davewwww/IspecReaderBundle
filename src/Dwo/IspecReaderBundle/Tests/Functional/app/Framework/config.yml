@@ -1,4 +1,4 @@
 imports:
-    - { resource: ../config/framework.yml }
-    - { resource: ../../../Fixtures/config.yml }
+    - { resource: '../config/framework.yml' }
+    - { resource: '../../../Fixtures/config.yml' }
 

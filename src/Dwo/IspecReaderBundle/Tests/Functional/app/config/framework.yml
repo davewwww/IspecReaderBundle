@@ -10,4 +10,4 @@ framework:
         storage_id:     session.storage.mock_file
 
 services:
-    logger: { class: Psr\Log\NullLogger }
+    logger: { class: 'Psr\Log\NullLogger' }
