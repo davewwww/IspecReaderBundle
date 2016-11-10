@@ -1,4 +1,4 @@
-Dwo\IspecReaderBundle\Entity\IpInfo:
+'Dwo\IspecReaderBundle\Entity\IpInfo':
   type: entity
   table: ip_infos
   indexes:

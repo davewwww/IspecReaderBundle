@@ -3,7 +3,7 @@ doctrine:
     connections:
       ispec_default:
         driver: pdo_sqlite
-        path: %dwo_ispac_sqlite_path%
+        path: '%dwo_ispac_sqlite_path%'
 
   orm:
     entity_managers:
@@ -13,5 +13,5 @@ doctrine:
           DwoIspecReaderBundle:
             mapping: true
             type: yml
-            dir: Resources/config/doctrine_mapping
-            prefix: Dwo\IspecReaderBundle\Entity
+            dir: 'Resources/config/doctrine_mapping'
+            prefix: 'Dwo\IspecReaderBundle\Entity'

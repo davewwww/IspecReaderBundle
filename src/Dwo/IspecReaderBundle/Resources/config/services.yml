@@ -1,10 +1,10 @@
 services:
 
   dwo_ispec_reader.finder.default:
-    class: Dwo\Ispec\Finder\IpInfoFinder
-    arguments: [@dwo_ispec_reader.manager.default, @dwo_ispec_reader.matcher.subnet]
+    class: 'Dwo\Ispec\Finder\IpInfoFinder'
+    arguments: ['@dwo_ispec_reader.manager.default', '@dwo_ispec_reader.matcher.subnet']
   dwo_ispec_reader.finder:
-    alias: dwo_ispec_reader.finder.default
+    alias: 'dwo_ispec_reader.finder.default'
 
   dwo_ispec_reader.matcher.subnet:
-    class: Dwo\Ispec\Matcher\SubnetMatcher
+    class: 'Dwo\Ispec\Matcher\SubnetMatcher'
